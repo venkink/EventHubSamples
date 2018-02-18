@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubSamples.Core", "EventHubSamples.Core\EventHubSamples.Core.csproj", "{10270716-74C3-4741-9FE4-22B922CD0659}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubSamples.Receiver", "EventHubSamples.Receiver\EventHubSamples.Receiver.csproj", "{75E29E72-939A-43E1-839E-CD908E28DCE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{10270716-74C3-4741-9FE4-22B922CD0659}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10270716-74C3-4741-9FE4-22B922CD0659}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10270716-74C3-4741-9FE4-22B922CD0659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E29E72-939A-43E1-839E-CD908E28DCE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E29E72-939A-43E1-839E-CD908E28DCE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E29E72-939A-43E1-839E-CD908E28DCE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E29E72-939A-43E1-839E-CD908E28DCE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
