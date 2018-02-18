@@ -16,7 +16,7 @@ namespace EventHubSamples.Core
         }
         private static async Task MainAsync(string[] args)
         {
-            // Creates an EventHubsConnectionStringBuilder object from the connection string, and sets the EntityPath.
+            // Creates an EventHubsConnectionStringBuilder object from the connection string, and sets the EntityPath. updated
             // Typically, the connection string should have the entity path in it, but this simple scenario
             // uses the connection string from the namespace.
             var connectionStringBuilder = new EventHubsConnectionStringBuilder(EhConnectionString)
